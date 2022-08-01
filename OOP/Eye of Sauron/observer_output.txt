@@ -1,0 +1,23 @@
+Assignment 3: Output Capture
+Pranav Ramakrishnan
+
+Here is a capture of the output of my program:
+
+
+
+Saruman is in Troop Command
+Saruman has been notified of the army count.
+
+Witch King is in Troop Command
+Witch King has been notified of the army count.
+
+Troop Command has confirmed reports that the advancing enemy force contains {1} hobbits, {1} dwarfs, {2} elfs, and {0} humans.
+
+Saruman has been defeated.
+
+Witch King is in Troop Command
+Witch King has been notified of the army count.
+
+Troop Command has confirmed reports that the advancing enemy force contains {4} hobbits, {1} dwarfs, {1} elfs, and {100} humans.
+
+
