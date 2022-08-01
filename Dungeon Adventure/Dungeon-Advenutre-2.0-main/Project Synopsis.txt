@@ -1,0 +1,99 @@
+Team P!(N)K:
+Pranav Venkatesh Ramkrishnan, (Na)Talia Nauman, Kevin Perkins
+
+What did we do on this project?
+
+Pranav:
+I was the one who set up toggle and pivotal tracker and invited the group to join. 
+I worked on creating a Sqlite database to store quiz questions, and the GUI that would display the selected question when a player reached a piller.
+I implemented music into the game.
+I helped in integrating the quiz class with the room class and the battleground class, allowing the game to switch from dunceon to quiz to battleground seamlessly.
+I also worked on a pause menu class and a sound menu class, but had trouble integrating them to the final product.
+I also had trouble seperating the main menu from the dungeon adventure class.
+
+(Na)Talia:
+I stored data for the monsters in a SQLite database, retrieved it at the start of the program, and used it to generate and place monsters in the 
+dungeon. I contributed to the combat between the hero and the monster and created the quiz for the sphinx to deliver at each pillar. 
+I completed the UML and contributed to the SRS and the Project Synopsis. I encouraged and followed Agile methodologies throughout the project. 
+
+
+Kevin:
+I was the one who set all the meetings on zoom, set up the GitHub, and organized/turned in all of our work for each iteration. I also provided the Dungeon.
+I made all of the Abstract classes (Dungeon Character, Hero and Monster (Talia helped a bit with Monster)) as well as the hero child classes. I then 
+set to work on making a GUI that would enable the player to combat monsters that they'd encounter within the maze. 
+I'm also organizing the SRS/Synopsis and probably the presentation.
+
+
+Problems we faced?
+
+Pranav:
+I worked on a pause menu class and a sound menu class, but had trouble integrating them to the final product.
+I also had trouble seperating the main menu from the dungeon adventure class.
+Both ideas had to be put aside for the final submission.
+Since the classes were interlinked with the GUI elements, and not in the model view controller pattern, it was impossible to pickle in order to save.
+we had to scrap save/load feature for the final product, but could have probably fixed it given more time.
+
+
+(Na)Talia:
+I had some difficulty understanding how to place monsters in another team's dungeon. I also had some unusual technical problems for a few weeks during the project. 
+I learned from my ISP that my IP address had been blacklisted and they gave me a new IP address. However, service continued lagging occasionally, so I think I will try to find a more reliable ISP. 
+
+
+Kevin:
+I had a difficult time getting the Abstract classes to work initally, which slowed me down. This ended up eating up the amount of time I got to spend on
+the GUI which kept me from adding features that I'd have liked to commit (no resizer again)
+
+
+Total Hours?
+
+Pranav:
+61 hours.
+
+
+(Na)Talia:
+80 hours
+
+
+Kevin:
+61 Hours
+
+
+
+Short Comings?
+
+Pranav:
+Was not able to connect the pause menu and sound menu and integrate them. Was not able to create a save/load feature. 
+Was not able to seperate the main menu functions from the dungeon adventure class and put them in their own class.
+
+
+(Na)Talia:
+It took more time than I thought to store data for the monsters in a SQLite database,. I had started with SQL alchemy, but later used the zip files 
+from class to successfully use SQLite to create a database. 
+
+
+Kevin:
+Wasn't able to get the text produced by combat to be read on the textboxes in time. Nor could we get the Phoenix to appear under the right conditions.
+
+
+Items worthy of extra credit?
+
+Pranav:
+Added music that plays during the game.
+Sqlite database of quiz questions. Whenever a player collects a pillar, they are asked a quiz question related to the specific principle of OO. IF they get it wrong, the have to fight a sphinx.
+GUI for quiz class.
+
+
+(Na)Talia:
+Placing each Sphinx in a pillar room with a quiz added by a team member. 
+
+
+
+Kevin:
+Lot of GUI work (especially from the combat and quiz classes). Also music.
+
+
+
+
+
+
+
